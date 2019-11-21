@@ -1,0 +1,2 @@
+include ':app', ':dao_sqlite', ':dao_sqlite_annotations', ':dao_sqlite_annotations_processor'
+rootProject.name='My Sqlite'

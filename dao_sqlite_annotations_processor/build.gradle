@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation group: 'com.squareup', name: 'javapoet', version: '1.11.1'
+    implementation project(":dao_sqlite_annotations")
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
