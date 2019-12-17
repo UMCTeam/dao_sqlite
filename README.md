@@ -1,4 +1,4 @@
-### Dao-Splite
+### Dao-Sqlite
 > 采用 bean + model 形式， 开发者只需关注bean结构
 
 - 支持SQL操作（均支持条件操作）
